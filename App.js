@@ -30,24 +30,25 @@ export default function App() {
       </SafeAreaView>
 
       <SafeAreaView style={style.caja2}>
-      <View style={style.DATA1}>
-          <Text style={style.TEXTO}>Data 1{"\n"}{"\n"}CINOC</Text>
+      <View style={style.dato1}>
+          <Text style={style.tex}>Data 1{"\n"}{"\n"}cinoc</Text>
         </View>
-        <View style={style.DATA2}>
-          <Text style={style.TEXTO}>Data 2{"\n"}{"\n"}CINOC</Text>
+        <View style={style.dato2}>
+          <Text style={style.tex}>Data 2{"\n"}{"\n"}cinoc</Text>
         </View>
-        <View style={style.DATA3}>
-          <Text style={style.TEXTO}>Data 2{"\n"}{"\n"}CINOC</Text>
+        <View style={style.dato3}>
+          <Text style={style.tex}>Data 2{"\n"}{"\n"}cinoc</Text>
         </View>
 
       </SafeAreaView>
     </>
-  );
+);
 }
+
 
 const style = StyleSheet.create({
   CUADRO1: {
-    backgroundColor: '#ED1424',
+    backgroundColor: '#B0E622',
     height: 40,
     color: '#ffffff',
     fontSize: 25,
@@ -57,7 +58,7 @@ const style = StyleSheet.create({
    
   },
   CUADRO2: {
-    backgroundColor: '#ED1424',
+    backgroundColor: '#B0E622',
     height: 40,
     color: '#ffffff',
     fontSize: 25,
@@ -67,7 +68,7 @@ const style = StyleSheet.create({
   },
 
   CUADRO3: {
-    backgroundColor: '#ED1424',
+    backgroundColor: '#B0E622',
     height: 40,
     color: '#ffffff',
     fontSize: 25,
@@ -76,7 +77,7 @@ const style = StyleSheet.create({
     marginLeft:'20%'
   },
   CUADRO4: {
-    backgroundColor: '#ED1424',
+    backgroundColor: '#B0E622',
     height: 40,
     color: '#ffffff',
     fontSize: 25,
@@ -84,39 +85,39 @@ const style = StyleSheet.create({
     width:'100%',
     
   },
-  DATA1:{
-    backgroundColor:'#17202A', 
+  dato1:{
+    backgroundColor:'#24F0BF', 
     height:80,
     width:'30%',
     marginLeft:'33%',
     marginTop:30
   },
-  DATA2:{
-    backgroundColor:'#17202A', 
+  dato2:{
+    backgroundColor:'#24F0BF', 
     height:80,
     width:'30%',
     marginLeft:'66%',
     marginTop:30
   },
-  DATA3:{
-    backgroundColor:'#17202A', 
+  dato3:{
+    backgroundColor:'#24F0BF', 
     height:80,
     width:'30%',
     margin:10
   },
-  TEXTO:{
+  tex:{
     color: '#ffffff',
     textAlign:"center",
     marginTop:10
   }
 ,
   caja1:{
-    borderColor:'#17202A',
+    borderColor:'#24F0BF',
     margin:30,
     borderWidth: 5
   },
   caja2:{
-    borderColor:'#17202A',
+    borderColor:'#24F0BF',
     margin:30,
     borderWidth: 5,
     height:'60%'
